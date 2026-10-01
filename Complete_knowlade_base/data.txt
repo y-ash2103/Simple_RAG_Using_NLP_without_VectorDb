@@ -1,266 +1,168 @@
+APPLE KNOWLEDGE BASE
 
-CANCELLATION_POLICY
+PRODUCT INFORMATION
 
+iPhone is a smartphone product made by Apple.
+iPhone devices are available in different models, storage capacities, and colors.
+iPhone models may support features such as Face ID, wireless charging, and 5G depending on the model.
+iPhone storage options vary by model.
+iPhone battery life varies depending on the model, usage, settings, and network conditions.
 
-iStore Hub Order Cancellation Policy
+Mac is Apple's line of personal computers.
+Mac products include MacBook Air, MacBook Pro, iMac, Mac mini, and Mac Studio.
+MacBook Air is designed as a lightweight laptop for everyday computing.
+MacBook Pro is designed for users who need higher performance for demanding tasks.
+Mac products use Apple-designed processors in supported models.
 
-1. Customers may request cancellation before an order has been dispatched.
-2. Once an order has been dispatched, cancellation may no longer be possible through the normal cancellation process.
-3. A cancellation request should include the order number and customer contact details.
-4. If payment was already captured and cancellation is approved, the refund is initiated according to the payment provider's processing timeline.
-5. Customized or specially ordered products may have additional cancellation restrictions.
+iPad is Apple's tablet product.
+iPad models are available in different screen sizes and storage capacities.
+Some iPad models support Apple Pencil.
+Some iPad models support cellular connectivity.
 
+Apple Watch is Apple's smartwatch product.
+Apple Watch can provide fitness, health, communication, and notification features.
+Apple Watch models differ in features, materials, and available connectivity.
 
-COMPANY_OVERVIEW
+AirPods are Apple's wireless headphones and earbuds.
+Different AirPods models provide different features such as noise cancellation and spatial audio.
 
 
-iStore Hub - Company Overview
+RETURN POLICY
 
-iStore Hub is a fictional electronics retailer created for an educational RAG/NLP project.
-The company sells Apple iPhones, iPads, MacBooks, Apple Watches, AirPods and selected accessories.
+Apple products purchased directly from Apple may be eligible for return according to Apple's applicable return policy.
+Eligible products can generally be returned within 14 days of purchase.
+The product should be in acceptable condition for return.
+Proof of purchase may be required for a return.
+Refunds are generally issued to the original payment method after the returned product is processed.
+Return eligibility may depend on the product, purchase method, and applicable local rules.
+Customized products may have different return conditions.
+Products purchased from an authorized reseller are subject to the reseller's return policy.
 
-Customer support channels:
-- Store support desk: available during store hours.
-- Email: support@istorehub.example
-- Phone: +91-1800-000-000
-- Business hours: Monday to Sunday, 10:00 AM to 9:00 PM.
 
-Important:
-This dataset is fictional and is not an official Apple policy or real iStore policy.
-For the project, the AI assistant must answer using the information contained in the company knowledge base.
+WARRANTY POLICY
 
+Apple products may include a limited warranty.
+The standard limited warranty generally covers manufacturing defects.
+The warranty does not normally cover accidental damage.
+The warranty does not normally cover damage caused by unauthorized modifications.
+Warranty coverage may vary depending on the product and country.
+Proof of purchase may be required when requesting warranty service.
 
-DELIVERY_POLICY
 
+IPHONE SERVICE
 
-iStore Hub Delivery Policy
+Customers can request service for eligible iPhone devices.
+Apple may provide hardware service for problems covered by applicable warranty or service terms.
+Accidental damage may not be covered by the standard limited warranty.
+Customers may be required to provide proof of purchase or device information.
+Service options may include Apple Store service, authorized service providers, or other available service options.
 
-1. Standard delivery is available to supported serviceable locations.
-2. Estimated delivery time depends on location, stock availability and courier operations.
-3. Customers receive an order or tracking reference after dispatch when tracking is available.
-4. Delivery estimates are not guaranteed delivery dates.
-5. Customers should inspect the package for visible damage at delivery.
-6. If the package appears severely damaged or tampered with, the customer should document the condition and contact support.
-7. Delivery charges, if applicable, are displayed during checkout.
 
+APPLECARE
 
-EMPLOYEE_POLICY
+AppleCare is Apple's additional service and support program.
+AppleCare plans can provide additional technical support and service coverage.
+Coverage and benefits depend on the specific AppleCare plan.
+AppleCare may provide coverage for certain accidental damage depending on the plan.
+Customers should check the terms of their specific AppleCare plan for coverage details.
 
 
-iStore Hub Employee Policy
+PAYMENT
 
-1. Employees must provide accurate information and must not knowingly misrepresent product specifications or company policies.
-2. Employees must verify stock and price information before making commitments to customers.
-3. Employee discounts must not be transferred to unauthorized people.
-4. Customer data must be handled confidentially.
-5. Employees must escalate disputes, suspected fraud, damaged products and unusual refund requests to a manager.
-6. Employees must not promise a refund, exchange or warranty outcome before the required inspection or approval.
-7. Employees must record relevant customer-service actions in the approved company system.
+Apple accepts various payment methods depending on the country and purchase channel.
+Available payment methods may include credit cards and debit cards.
+Payment options may vary by Apple Store, Apple Online Store, and country.
+Customers should confirm available payment methods during checkout.
 
 
-EXCHANGE_POLICY
+DELIVERY
 
+Delivery options depend on the customer's location and the product purchased.
+Estimated delivery dates may vary depending on product availability and location.
+Some products may be available for pickup from an Apple Store.
+Customers may receive tracking information for eligible shipments.
 
-iStore Hub Exchange Policy
 
-1. Exchange requests must normally be made within 10 calendar days of purchase.
-2. The product must be in acceptable physical condition and accompanied by the original invoice.
-3. Exchange is subject to product availability.
-4. A customer may exchange for another eligible model or storage configuration by paying any applicable price difference.
-5. If the replacement product is cheaper, the difference is handled according to the store's refund procedure.
-6. Devices with physical damage caused by the customer may not qualify for exchange.
-7. Exchange approval requires inspection by store staff.
-8. Once an exchange is completed, the original product cannot be returned under the same transaction.
+ORDER CANCELLATION
 
+Customers may be able to cancel an order before it reaches a stage where cancellation is no longer possible.
+Order cancellation availability depends on the order status.
+If an order cannot be cancelled, the customer may need to use the applicable return process after receiving the product.
 
-FAQ
 
+CUSTOMER SUPPORT
 
-iStore Hub Customer FAQ
+Apple provides technical and product support to customers.
+Customers can contact Apple Support for assistance with Apple products.
+Customers may receive help with product setup, troubleshooting, software issues, and service options.
+Support options vary by country and product.
 
-Q: Can I return an unopened iPhone after 5 days?
-A: A return request may be made within 7 calendar days if the product is unused, undamaged, in original packaging and the customer has valid proof of purchase.
 
-Q: Can I return an opened iPhone?
-A: A normal change-of-mind return generally requires the product to be unused. An opened product may be considered if there is a verified manufacturing defect and the service team approves the return.
+IPHONE PURCHASE
 
-Q: Can I exchange my iPhone for a different storage size?
-A: An eligible exchange may be possible within 10 calendar days, subject to inspection, availability and payment of any applicable price difference.
+Customers can purchase iPhone devices through Apple's online store, Apple Stores, and authorized resellers.
+iPhone prices depend on the model, storage capacity, configuration, and country.
+Available iPhone models may vary by country and region.
+Trade-in availability and value may vary depending on the device and location.
 
-Q: Does the warranty cover a cracked screen?
-A: Accidental or impact-related screen damage is not covered by the standard warranty described in this dataset.
 
-Q: Can I cancel an order after it has shipped?
-A: Normal cancellation is generally available only before dispatch. Contact support to check the specific order status.
+MAC PURCHASE
 
-Q: How long does a refund take?
-A: After return approval, refund processing can take 5 to 7 business days.
+Customers can purchase Mac computers through Apple Stores, Apple's online store, and authorized resellers.
+Mac prices depend on the model and configuration.
+Customers may be able to customize selected Mac models with different memory and storage configurations.
 
-Q: Can I trade in my old phone?
-A: Eligible devices may be accepted for trade-in after inspection. Final value depends on model, storage, age and condition.
 
-Q: What should I do if my delivered package is damaged?
-A: Document the damage and contact iStore Hub support as soon as possible.
+PRODUCT AVAILABILITY
 
-Q: Can staff tell me an exact current stock count?
-A: Only verified inventory information should be used. Staff should check the current inventory system before confirming stock.
+Product availability can vary by country and store.
+Some products may be temporarily unavailable.
+Estimated delivery dates can change based on inventory.
+Customers should check the current availability before placing an order.
 
-Q: Should I give my OTP to store staff?
-A: No. Customers should never share payment OTPs with staff.
 
+TRADE-IN
 
-IPHONE_CATALOG
+Apple Trade In allows eligible customers to exchange an eligible device for credit toward another Apple product or other available value.
+Trade-in value depends on the device model, condition, configuration, and other applicable factors.
+The final trade-in value may depend on inspection of the device.
+Not every device is eligible for trade-in.
 
 
-iStore Hub Sample iPhone Catalog
+REPAIR
 
-Product: iPhone 17
-Storage: 128 GB
-Category: Smartphone
-Starting price in this fictional dataset: INR 79,900
-Colors: Black, Silver, Blue
-Availability: Check live store inventory before confirming.
+Apple provides repair and service options for eligible products.
+Repair availability depends on the product, problem, location, and service provider.
+Repair costs depend on the type of damage and applicable coverage.
+Devices covered by applicable warranty terms may qualify for covered service.
+Accidental damage may result in a service charge.
 
-Product: iPhone 17
-Storage: 256 GB
-Starting price in this fictional dataset: INR 89,900
-Colors: Black, Silver, Blue
-Availability: Check live store inventory before confirming.
 
-Product: iPhone 17 Pro
-Storage: 256 GB
-Starting price in this fictional dataset: INR 1,19,900
-Colors: Black Titanium, Silver Titanium
-Availability: Check live store inventory before confirming.
+PRIVACY
 
-Product: iPhone 17 Pro Max
-Storage: 256 GB
-Starting price in this fictional dataset: INR 1,39,900
-Colors: Black Titanium, Silver Titanium
-Availability: Check live store inventory before confirming.
+Apple products and services include privacy and security features.
+Apple provides privacy information describing how personal information may be handled.
+Privacy features and settings can vary by product and service.
+Customers can review available privacy settings on supported Apple devices.
 
-Note:
-All product names, prices and availability in this educational dataset are fictional examples.
-The assistant must not treat them as current market prices.
 
+SECURITY
 
-PAYMENT_POLICY
+Apple devices include security features designed to protect user data.
+Supported iPhone models may use Face ID or other authentication methods.
+Customers should use a secure passcode to protect their devices.
+Software updates may include security improvements.
 
 
-iStore Hub Payment Policy
+SOFTWARE UPDATES
 
-Accepted payment methods may include:
-- Credit cards
-- Debit cards
-- UPI
-- Net banking
-- Approved digital wallets
-- Eligible EMI options
+Apple periodically releases software updates for supported devices.
+Software updates may include new features, bug fixes, and security improvements.
+The availability of software updates depends on the device model and software version.
+Customers should keep supported devices updated when possible.
 
-Payment rules:
-1. The order is confirmed only after successful payment authorization where applicable.
-2. EMI availability depends on the customer's bank, card and eligibility.
-3. Any EMI terms shown at checkout should be verified before purchase.
-4. Cash payment may be accepted only at participating physical stores.
-5. Customers should never share their card PIN, CVV or one-time password with store staff.
 
+IMPORTANT CUSTOMER SERVICE RULE
 
-PRIVACY_POLICY
-
-
-iStore Hub Customer Privacy Policy
-
-1. Customer information should be collected only for legitimate business purposes.
-2. Staff must not share customer phone numbers, addresses, order details or identification documents with unauthorized people.
-3. Customer information should be accessed only when necessary for the assigned business task.
-4. Staff must not copy customer personal information to personal devices.
-5. Customers should be informed when information is required for an order, service or support process.
-6. Suspected privacy incidents should be reported to the store manager or designated privacy contact.
-
-
-RETURN_POLICY
-
-
-iStore Hub Return Policy
-
-1. Customers may request a return within 7 calendar days of purchase.
-2. The product must be unused, undamaged and in its original retail packaging.
-3. The original invoice or valid proof of purchase is required.
-4. The serial number or IMEI must match the purchase record.
-5. Products showing physical damage, liquid damage or unauthorized modification are not eligible for normal returns.
-6. An opened product may be accepted only if the product has a verified manufacturing defect and the service team approves the return.
-7. Personalized or engraved products are not eligible for change-of-mind returns.
-8. Refunds are normally processed after the returned product passes inspection.
-9. Refund processing can take 5 to 7 business days after approval.
-10. Accessories included with a returned product should also be returned where applicable.
-
-Example:
-A customer who bought an iPhone 17 five days ago and has not opened the box may request a return, provided all other conditions are satisfied.
-
-
-STORE_INFORMATION
-
-
-iStore Hub Store Information
-
-Store 1:
-Name: iStore Hub - Central Mall
-City: Indore
-Hours: 10:00 AM - 9:00 PM
-Services: Sales, returns, exchanges, basic product assistance
-
-Store 2:
-Name: iStore Hub - City Square
-City: Bhopal
-Hours: 10:00 AM - 9:00 PM
-Services: Sales, exchanges, basic product assistance
-
-General rule:
-Store-specific inventory must be checked before promising product availability.
-
-
-SUPPORT_ESCALATION
-
-
-iStore Hub Support Escalation Rules
-
-Escalate to a manager or designated support team when:
-- A customer disputes a refund decision.
-- A device has suspected liquid or physical damage.
-- A customer reports suspected fraud.
-- A payment was deducted but the order was not created.
-- A customer reports a privacy or data-security incident.
-- A product's serial number does not match the purchase record.
-- A customer requests an exception to company policy.
-- Staff are unsure whether a warranty or return condition is satisfied.
-
-The AI assistant should not invent an exception. It should explain the documented policy and recommend escalation when the policy requires human approval.
-
-
-TRADE_IN_POLICY
-
-
-iStore Hub Trade-In Policy
-
-1. Eligible customers may exchange an old device for a trade-in value toward a new purchase.
-2. Trade-in value depends on device model, storage, age, condition and inspection results.
-3. The device must pass the store's inspection process.
-4. The customer should remove personal data and disable account/device locks before handing over the device.
-5. The final trade-in value can differ from an initial estimate after physical inspection.
-6. Devices reported as lost or stolen are not eligible.
-7. Required documents and eligibility checks may vary by transaction.
-
-
-WARRANTY_POLICY
-
-
-iStore Hub Warranty Policy
-
-1. New iPhones sold by iStore Hub include the manufacturer's standard limited warranty applicable to the product.
-2. The warranty is intended for manufacturing defects and hardware failures covered by the applicable warranty terms.
-3. Accidental damage, cracked screens caused by impact, liquid damage and unauthorized repairs are not covered by the standard warranty.
-4. Customers should provide proof of purchase when requesting warranty assistance.
-5. Warranty eligibility may be verified using the device serial number.
-6. Customers should not attempt unauthorized repairs before warranty inspection.
-7. Warranty service may involve inspection, repair or replacement according to the applicable service process.
-8. Warranty coverage and duration can vary by product and manufacturer terms; staff should verify the device-specific coverage before making a final commitment.
+If specific information is not available in this knowledge base, the AI assistant should not invent an answer.
+The AI assistant should clearly tell the customer that the requested information is not available in the current knowledge base.
