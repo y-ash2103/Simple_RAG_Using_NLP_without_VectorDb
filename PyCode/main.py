@@ -131,14 +131,14 @@ def ask_ai(question):
 
     relevant_data = get_relevant_data(question)
 
-    if not relevant_data:
+    # if not relevant_data:
 
-        print(
-            "\nAI: I couldn't find relevant information "
-            "in the Apple knowledge base.\n"
-        )
+    #     print(
+    #         "\nAI: I couldn't find relevant information "
+    #         "in the Apple knowledge base.\n"
+    #     )
 
-        return
+    #     return
 
 
     # --------------------------------------------------------
@@ -150,6 +150,8 @@ def ask_ai(question):
 
     Your job is to answer questions about Apple products
     using ONLY the provided knowledge base.
+
+    Also gree the user when he/she will greet you by hii, hello etc.
 
     --- KNOWLEDGE BASE ---
     {relevant_data}
