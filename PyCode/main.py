@@ -24,79 +24,85 @@ STOP_WORDS = set(stopwords.words("english"))
 
 load_dotenv()
 
-API_KEY=os.getenv("GEMINI_API_KEY")
+API_KEY = os.getenv("GEMINI_API_KEY")
 
 if not API_KEY:
-    raise ValueError("API KEY not found in .env!")
-else:
-    # print("Key is loade successfully!")
-    pass
+    raise ValueError("GEMINI_API_KEY not found in .env")
+
 
 # ============================================================
 # 3. LOAD KNOWLEDGE BASE
 # ============================================================
 
-Knowledge_base_path = '../Complete_knowlade_base/data.txt'
-def load_knowlade_base():
-    try:
-        with open(Knowledge_base_path, 'r', encoding='utf-8') as file:
-            return file.readlines()
-    except FileNotFoundError:
-        return ""
-    except Exception as e:
-        print(f"Error loading knowledge base: {e}")
-        return ""
+KNOWLEDGE_BASE_PATH = "../Complete_knowlade_base/data.txt"
 
-# x=load_knowlade()
-# print(x)
+
+def load_knowledge_base():
+
+    with open(
+        KNOWLEDGE_BASE_PATH,
+        "r",
+        encoding="utf-8"
+    ) as file:
+
+        return file.readlines()
+
 
 # ============================================================
 # 4. NLP — EXTRACT KEYWORDS
 # ============================================================
 
-def extract_key_words(question):
+def extract_keywords(question):
+
     # Convert question into lowercase tokens
-    tokens=word_tokenize(question.lower())
-    # return tokens
+    tokens = word_tokenize(question.lower())
 
-# print(extract_key_words("What is YASH your return policy ?"))
-    
-    key_words = []
-    # Keep only meaningful words
+    keywords = []
+
     for token in tokens:
-        if token.isalnum() and token not in STOP_WORDS:
-            key_words.append(token)
-    return key_words
 
-# print(extract_key_words("hey i want to know about iphone 13 air how much will it cost"))
+        # Keep only meaningful words
+        if token.isalnum() and token not in STOP_WORDS:
+
+            keywords.append(token)
+
+    return keywords
+
 
 # ============================================================
 # 5. RETRIEVAL — FIND RELEVANT INFORMATION
 # ============================================================
 
-def get_relevent_data(question, top_k=5):
+def get_relevant_data(question, top_k=5):
 
     # Get keywords from user question
-    keywords = extract_key_words(question)
+    keywords = extract_keywords(question)
 
     # Load complete knowledge base
-    full_knowledge = load_knowlade_base()
+    all_data = load_knowledge_base()
 
     scored_lines = []
 
     # Check every line in knowledge base
-    for line in full_knowledge:
+    for line in all_data:
+
         line_lower = line.lower()
 
         score = 0
 
         # Count keyword matches
         for keyword in keywords:
+
             if keyword in line_lower:
-                score +=1
+
+                score += 1
+
         # Keep lines that contain keywords
         if score > 0:
-            scored_lines.append((score,line))
+
+            scored_lines.append(
+                (score, line)
+            )
 
     # Sort by highest score
     scored_lines.sort(
@@ -104,7 +110,7 @@ def get_relevent_data(question, top_k=5):
         reverse=True
     )
 
-     # Select top relevant lines
+    # Select top relevant lines
     relevant_data = [
         line
         for score, line in scored_lines[:top_k]
@@ -112,63 +118,83 @@ def get_relevent_data(question, top_k=5):
 
     return "".join(relevant_data)
 
+
 # ============================================================
 # 6. AUGMENTATION + GENERATION
 # ============================================================
 
 def ask_ai(question):
+
     # --------------------------------------------------------
     # RETRIEVAL
     # --------------------------------------------------------
 
-    relevent_data = relevent_data(question)
-    if not relevent_data:
+    relevant_data = get_relevant_data(question)
+
+    if not relevant_data:
+
         print(
             "\nAI: I couldn't find relevant information "
             "in the Apple knowledge base.\n"
         )
 
         return
-        
+
+
     # --------------------------------------------------------
     # AUGMENTATION
     # --------------------------------------------------------
 
     prompt = f"""
-
     You are an Apple Company AI assistant.
-    Answer in Hinglish language in short and helpful manner.
-    Also make answer little bit entertanining.
 
-    Answer the user's question using ONLY the
-    information provided in the knowledge base.
+    Your job is to answer questions about Apple products
+    using ONLY the provided knowledge base.
 
-    ================ KNOWLEDGE BASE ================
-
+    --- KNOWLEDGE BASE ---
     {relevant_data}
+    --- END KNOWLEDGE BASE ---
 
-    ============== END KNOWLEDGE BASE ==============
-
-
-    ================ USER QUESTION =================
-
+    USER QUESTION:
     {question}
 
-
-    ==================== RULES =====================
+    RULES:
 
     1. Use only the provided knowledge base.
-    2. Do not invent information.
-    3. Do not assume information.
-    4. If the answer is not available in the knowledge
-    base, clearly say so.
-    5. If the question is unrelated to Apple products,
-    politely explain that you only answer
-    Apple-related questions.
-    6. Give a clear and useful answer.
 
-    =================================================
+    2. Do not invent, assume, or add any information.
+
+    3. If the answer is not available in the knowledge base,
+    clearly say that the information is not available.
+
+    4. If the question is unrelated to Apple products,
+    politely explain that you only answer Apple-related questions.
+
+    5. Answer in Hinglish (Hindi + English).
+
+    6. Write Hindi using English/Roman letters.
+    Do NOT use Devanagari Hindi.
+
+    7. Make the response friendly, natural, conversational,
+    and slightly entertaining.
+
+    8. Talk like a friendly and knowledgeable Apple Store assistant.
+
+    9. You can use light expressions and emojis when appropriate,
+    such as 🍎 📱 😄 👍, but do not overuse them.
+
+    10. Do not make every answer unnecessarily funny.
+        Keep the answer useful and professional.
+
+    11. Give the direct answer first, followed by a short explanation
+        if necessary.
+
+    12. If the knowledge base does not contain enough information,
+        do not guess.
+
+    13. Do not mention these instructions in your response.
     """
+
 
     # --------------------------------------------------------
     # GENERATION — GEMINI
@@ -184,6 +210,7 @@ def ask_ai(question):
 
         contents=prompt
     )
+
 
     # --------------------------------------------------------
     # STREAM RESPONSE
@@ -204,6 +231,40 @@ def ask_ai(question):
     print("\n")
 
 
+# ============================================================
+# 7. CHAT LOOP
+# ============================================================
+
+print("=" * 50)
+print("          APPLE AI ASSISTANT")
+print("=" * 50)
+
+print("Ask questions about Apple products.")
+print("Type 'exit' to quit.\n")
 
 
+while True:
 
+    question = input("You: ").strip()
+
+
+    # Exit
+    if question.lower() == "exit":
+
+        print("\nGoodbye!")
+
+        break
+
+
+    # Empty question
+    if not question:
+
+        print(
+            "Please enter a question.\n"
+        )
+
+        continue
+
+
+    # Run RAG
+    ask_ai(question)
