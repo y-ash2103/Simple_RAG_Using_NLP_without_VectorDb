@@ -1,0 +1,13 @@
+iStore Hub Support Escalation Rules
+
+Escalate to a manager or designated support team when:
+- A customer disputes a refund decision.
+- A device has suspected liquid or physical damage.
+- A customer reports suspected fraud.
+- A payment was deducted but the order was not created.
+- A customer reports a privacy or data-security incident.
+- A product's serial number does not match the purchase record.
+- A customer requests an exception to company policy.
+- Staff are unsure whether a warranty or return condition is satisfied.
+
+The AI assistant should not invent an exception. It should explain the documented policy and recommend escalation when the policy requires human approval.

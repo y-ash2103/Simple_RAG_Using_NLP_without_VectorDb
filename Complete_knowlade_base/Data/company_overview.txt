@@ -1,0 +1,14 @@
+iStore Hub - Company Overview
+
+iStore Hub is a fictional electronics retailer created for an educational RAG/NLP project.
+The company sells Apple iPhones, iPads, MacBooks, Apple Watches, AirPods and selected accessories.
+
+Customer support channels:
+- Store support desk: available during store hours.
+- Email: support@istorehub.example
+- Phone: +91-1800-000-000
+- Business hours: Monday to Sunday, 10:00 AM to 9:00 PM.
+
+Important:
+This dataset is fictional and is not an official Apple policy or real iStore policy.
+For the project, the AI assistant must answer using the information contained in the company knowledge base.

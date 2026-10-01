@@ -1,0 +1,16 @@
+iStore Hub Store Information
+
+Store 1:
+Name: iStore Hub - Central Mall
+City: Indore
+Hours: 10:00 AM - 9:00 PM
+Services: Sales, returns, exchanges, basic product assistance
+
+Store 2:
+Name: iStore Hub - City Square
+City: Bhopal
+Hours: 10:00 AM - 9:00 PM
+Services: Sales, exchanges, basic product assistance
+
+General rule:
+Store-specific inventory must be checked before promising product availability.

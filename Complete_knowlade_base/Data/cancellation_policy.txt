@@ -1,0 +1,7 @@
+iStore Hub Order Cancellation Policy
+
+1. Customers may request cancellation before an order has been dispatched.
+2. Once an order has been dispatched, cancellation may no longer be possible through the normal cancellation process.
+3. A cancellation request should include the order number and customer contact details.
+4. If payment was already captured and cancellation is approved, the refund is initiated according to the payment provider's processing timeline.
+5. Customized or specially ordered products may have additional cancellation restrictions.

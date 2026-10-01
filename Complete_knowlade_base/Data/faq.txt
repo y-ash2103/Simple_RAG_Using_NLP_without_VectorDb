@@ -1,0 +1,31 @@
+iStore Hub Customer FAQ
+
+Q: Can I return an unopened iPhone after 5 days?
+A: A return request may be made within 7 calendar days if the product is unused, undamaged, in original packaging and the customer has valid proof of purchase.
+
+Q: Can I return an opened iPhone?
+A: A normal change-of-mind return generally requires the product to be unused. An opened product may be considered if there is a verified manufacturing defect and the service team approves the return.
+
+Q: Can I exchange my iPhone for a different storage size?
+A: An eligible exchange may be possible within 10 calendar days, subject to inspection, availability and payment of any applicable price difference.
+
+Q: Does the warranty cover a cracked screen?
+A: Accidental or impact-related screen damage is not covered by the standard warranty described in this dataset.
+
+Q: Can I cancel an order after it has shipped?
+A: Normal cancellation is generally available only before dispatch. Contact support to check the specific order status.
+
+Q: How long does a refund take?
+A: After return approval, refund processing can take 5 to 7 business days.
+
+Q: Can I trade in my old phone?
+A: Eligible devices may be accepted for trade-in after inspection. Final value depends on model, storage, age and condition.
+
+Q: What should I do if my delivered package is damaged?
+A: Document the damage and contact iStore Hub support as soon as possible.
+
+Q: Can staff tell me an exact current stock count?
+A: Only verified inventory information should be used. Staff should check the current inventory system before confirming stock.
+
+Q: Should I give my OTP to store staff?
+A: No. Customers should never share payment OTPs with staff.

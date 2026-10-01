@@ -1,0 +1,30 @@
+iStore Hub Sample iPhone Catalog
+
+Product: iPhone 17
+Storage: 128 GB
+Category: Smartphone
+Starting price in this fictional dataset: INR 79,900
+Colors: Black, Silver, Blue
+Availability: Check live store inventory before confirming.
+
+Product: iPhone 17
+Storage: 256 GB
+Starting price in this fictional dataset: INR 89,900
+Colors: Black, Silver, Blue
+Availability: Check live store inventory before confirming.
+
+Product: iPhone 17 Pro
+Storage: 256 GB
+Starting price in this fictional dataset: INR 1,19,900
+Colors: Black Titanium, Silver Titanium
+Availability: Check live store inventory before confirming.
+
+Product: iPhone 17 Pro Max
+Storage: 256 GB
+Starting price in this fictional dataset: INR 1,39,900
+Colors: Black Titanium, Silver Titanium
+Availability: Check live store inventory before confirming.
+
+Note:
+All product names, prices and availability in this educational dataset are fictional examples.
+The assistant must not treat them as current market prices.

@@ -1,0 +1,9 @@
+iStore Hub Delivery Policy
+
+1. Standard delivery is available to supported serviceable locations.
+2. Estimated delivery time depends on location, stock availability and courier operations.
+3. Customers receive an order or tracking reference after dispatch when tracking is available.
+4. Delivery estimates are not guaranteed delivery dates.
+5. Customers should inspect the package for visible damage at delivery.
+6. If the package appears severely damaged or tampered with, the customer should document the condition and contact support.
+7. Delivery charges, if applicable, are displayed during checkout.

@@ -1,0 +1,16 @@
+iStore Hub Payment Policy
+
+Accepted payment methods may include:
+- Credit cards
+- Debit cards
+- UPI
+- Net banking
+- Approved digital wallets
+- Eligible EMI options
+
+Payment rules:
+1. The order is confirmed only after successful payment authorization where applicable.
+2. EMI availability depends on the customer's bank, card and eligibility.
+3. Any EMI terms shown at checkout should be verified before purchase.
+4. Cash payment may be accepted only at participating physical stores.
+5. Customers should never share their card PIN, CVV or one-time password with store staff.
