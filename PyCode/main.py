@@ -130,5 +130,80 @@ def ask_ai(question):
 
         return
         
+    # --------------------------------------------------------
+    # AUGMENTATION
+    # --------------------------------------------------------
+
+    prompt = f"""
+
+    You are an Apple Company AI assistant.
+    Answer in Hinglish language in short and helpful manner.
+    Also make answer little bit entertanining.
+
+    Answer the user's question using ONLY the
+    information provided in the knowledge base.
+
+    ================ KNOWLEDGE BASE ================
+
+    {relevant_data}
+
+    ============== END KNOWLEDGE BASE ==============
+
+
+    ================ USER QUESTION =================
+
+    {question}
+
+
+    ==================== RULES =====================
+
+    1. Use only the provided knowledge base.
+    2. Do not invent information.
+    3. Do not assume information.
+    4. If the answer is not available in the knowledge
+    base, clearly say so.
+    5. If the question is unrelated to Apple products,
+    politely explain that you only answer
+    Apple-related questions.
+    6. Give a clear and useful answer.
+
+    =================================================
+    """
+
+    # --------------------------------------------------------
+    # GENERATION — GEMINI
+    # --------------------------------------------------------
+
+    client = genai.Client(
+        api_key=API_KEY
+    )
+
+    response = client.models.generate_content_stream(
+
+        model="gemini-2.5-flash",
+
+        contents=prompt
+    )
+
+    # --------------------------------------------------------
+    # STREAM RESPONSE
+    # --------------------------------------------------------
+
+    print("\nAI: ", end="")
+
+    for chunk in response:
+
+        if chunk.text:
+
+            print(
+                chunk.text,
+                end="",
+                flush=True
+            )
+
+    print("\n")
+
+
+
 
 
